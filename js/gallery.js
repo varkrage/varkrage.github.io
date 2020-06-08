@@ -6,8 +6,7 @@ const images = [
     "https://www.instagram.com/p/CBA_jXcDApF/media?size=l",
     "https://www.instagram.com/p/CA-fCC0DltY/media?size=l",
     "https://www.instagram.com/p/CA9xwXzjBDt/media?size=l",
-    "https://www.instagram.com/p/CA8YuyjDr-7/media?size=l",
-    "https://www.instagram.com/p/CA7RC3QDKIK/media?size=l"
+    "https://www.instagram.com/p/CA8YuyjDr-7/media?size=l"
 ]
 
 const firstImage = `
