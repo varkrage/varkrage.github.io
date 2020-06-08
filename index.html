@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html>
+  <style>
+    body {
+    	font-family: 'Open Sans Condensed', sans-serif;
+    }
+    
+    .menu {
+    	list-style: none;
+      width: 100%;
+  		margin: 0 0 0 32px;
+  		padding-left: 0;
+    }
+    
+    .menu li {
+    	display: inline;
+      margin-right: 32px;
+    }
+    
+    .menu a {
+    	text-decoration: none;
+      color: black
+    }
+    
+    .title {
+    	display: inline;
+      font-size: 64px;
+    }
+    
+    .logo {
+    	float: left;
+    	margin-left: 32px;
+      margin-top: 32px;
+      text-align: right;
+    }
+  </style>
+  
   <head>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
     <title>VÅRKRAGE</title>
   </head>
   <body>
     <header>
+      <menu class="menu">
+        <li><a href="#">главная</a></li>
+        <li><a href="#">меню</a></li>
+        <li><a href="#">о нас</a></li>
+        <li><a href="#">контакты</a></li>
+      </menu>
     </header>
     <main>
-      <h1>VÅRKRAGE</h1>
+      <div class="logo">
+      	<b class="title">VÅRKRAGE</b><br><span>a modern fusion kitchen</span>
+      </div>
     </main>
     <footer>
     </footer>
